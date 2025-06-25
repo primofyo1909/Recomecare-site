@@ -1,0 +1,15 @@
+/* Estilos simplificados */
+body { font-family: 'Open Sans', sans-serif; margin:0; padding:0; }
+header { background:#fff; position:fixed; width:100%; padding:20px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+.header-inner { display:flex; justify-content:space-between; align-items:center; max-width:1200px; margin:auto; }
+.nav ul { list-style:none; display:flex; }
+.nav ul li { margin-left:20px; }
+.nav ul li a { text-decoration:none; color:#3f2e55; font-weight:600; }
+.hero { background:url('https://via.placeholder.com/1600x600') center/cover no-repeat; height:600px; display:flex; align-items:center; justify-content:center; margin-top:100px; position:relative; }
+.hero::before { content:''; position:absolute; inset:0; background:rgba(63,46,85,0.7); }
+.hero .container { position:relative; text-align:center; color:#fff; }
+.btn-primary { padding:15px 30px; background:#3f2e55; color:#fff; text-decoration:none; border-radius:5px; }
+.section { padding:80px 0; max-width:1200px; margin:auto; }
+.section h2 { text-align:center; color:#3f2e55; margin-bottom:40px; }
+.footer { background:#3f2e55; color:#fff; text-align:center; padding:40px 0; }
+.footer a { color:#fff; text-decoration:none; }
